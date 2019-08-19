@@ -4,7 +4,8 @@
   "description": "Search the Music Routes data set",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/Trott/music-routes-search/issues"
   },
-  "homepage": "https://github.com/Trott/music-routes-search#readme"
+  "homepage": "https://github.com/Trott/music-routes-search#readme",
+  "devDependencies": {
+    "music-routes-data": "^1.0.1",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "lunr": "^2.3.6"
+  }
 }
