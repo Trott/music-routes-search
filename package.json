@@ -4,7 +4,8 @@
   "description": "Search the Music Routes data set",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node tools/generate-index.js",
+    "test": "nyc --check-coverage --branches 100 --functions 100 --lines 100 node test/index.js",
     "lint": "standard"
   },
   "repository": {
@@ -18,7 +19,8 @@
   },
   "homepage": "https://github.com/Trott/music-routes-search#readme",
   "devDependencies": {
-    "music-routes-data": "^1.0.1",
+    "music-routes-data": "^1.0.3",
+    "nyc": "^14.1.1",
     "standard": "^12.0.1"
   },
   "dependencies": {
