@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 var lunr = require("lunr");
 var artistIndex = require("./indexes/artistIdx.json");
 var individualIndex = require("./indexes/individualIdx.json");
