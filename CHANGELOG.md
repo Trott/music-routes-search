@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/Trott/music-routes-search/compare/v2.4.0...v3.0.0) (2023-06-18)
+
+
+### chore
+
+* drop support for Node.js < 16.x ([1174aa0](https://github.com/Trott/music-routes-search/commit/1174aa02ef664567da509d46bf9d34d21014df75))
+
+
+### BREAKING CHANGES
+
+* Node.js 16.x or newer required
+
 # [2.4.0](https://github.com/Trott/music-routes-search/compare/v2.3.0...v2.4.0) (2023-02-05)
 
 
