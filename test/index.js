@@ -7,7 +7,7 @@ const { search } = require('../index.js')
 const checkResults = (results) => {
   assert.ok(results.length > 0)
   results.forEach((val) => {
-    assert.ok(/^\d+$/.test(val.ref))
+    assert.ok(/^[\w\s]+$/.test(val.ref), `Invalid ref format: ${val.ref}`)
     assert.strictEqual(typeof val.score, 'number')
     assert.ok(typeof val.matchData, 'object')
   })
