@@ -25,7 +25,7 @@
   "homepage": "https://github.com/Trott/music-routes-search#readme",
   "devDependencies": {
     "@types/lunr": "^2.3.4",
-    "@types/node": "^24.0.3",
+    "@types/node": "^25.2.3",
     "c8": "^10.0.0",
     "music-routes-data": "^5.0.0",
     "standard": "^17.0.0",
