@@ -17,4 +17,4 @@ const search = (val: string, index: MusicRoutesIndexes): lunr.Index.Result[] => 
   return indexes[index].search(val)
 }
 
-exports.search = search
+export { search }
