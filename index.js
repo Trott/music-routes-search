@@ -1,17 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var lunr = require("lunr");
-var artistIndex = require("./indexes/artistIdx.json");
-var individualIndex = require("./indexes/individualIdx.json");
-var releaseIndex = require("./indexes/releaseIdx.json");
-var trackIndex = require("./indexes/trackIdx.json");
-var indexes = {
+exports.search = void 0;
+const lunr = require("lunr");
+const artistIndex = require("./indexes/artistIdx.json");
+const individualIndex = require("./indexes/individualIdx.json");
+const releaseIndex = require("./indexes/releaseIdx.json");
+const trackIndex = require("./indexes/trackIdx.json");
+const indexes = {
     artist: lunr.Index.load(artistIndex),
     individual: lunr.Index.load(individualIndex),
     release: lunr.Index.load(releaseIndex),
     track: lunr.Index.load(trackIndex)
 };
-var search = function (val, index) {
+const search = (val, index) => {
     return indexes[index].search(val);
 };
 exports.search = search;
