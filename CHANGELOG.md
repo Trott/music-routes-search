@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/Trott/music-routes-search/compare/v3.5.0...v4.0.0) (2026-07-20)
+
+
+### chore
+
+* update test matrix to just 22.x and above ([949937a](https://github.com/Trott/music-routes-search/commit/949937ac21854c1715945a7d62825b0dfb3d07de))
+
+
+### BREAKING CHANGES
+
+* end support for Node.js prior to 22.x
+
 # [3.5.0](https://github.com/Trott/music-routes-search/compare/v3.4.0...v3.5.0) (2025-07-21)
 
 
