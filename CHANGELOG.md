@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/Trott/music-routes-search/compare/v4.0.1...v4.0.2) (2026-09-30)
+
+
+### Bug Fixes
+
+* update data ([d2448f5](https://github.com/Trott/music-routes-search/commit/d2448f5ff632ce0265cfea61376ed462f9139434))
+
 ## [4.0.1](https://github.com/Trott/music-routes-search/compare/v4.0.0...v4.0.1) (2026-09-20)
 
 
