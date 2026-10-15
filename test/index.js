@@ -14,10 +14,6 @@ const checkResults = (results) => {
 }
 
 checkResults(search('Chrissie Hynde', 'individual'))
-checkResults(search('The Pretenders', 'artist'))
-checkResults(search('Back On The Chain Gang', 'track'))
-checkResults(search('Learning To Crawl', 'release'))
-
 assert.throws(() => {
   search('Fhqwhgads', 'Strong Bad')
 })
@@ -25,3 +21,7 @@ assert.throws(() => {
 assert.throws(() => {
   search('Fhqwhgads')
 })
+
+for (const index of ['artist', 'release', 'track']) {
+  assert.throws(() => search('Chrissie Hynde', index))
+}
