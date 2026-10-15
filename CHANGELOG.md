@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/Trott/music-routes-search/compare/v4.0.3...v5.0.0) (2026-10-15)
+
+
+### chore
+
+* update to music-routes-data@6 ([79c866c](https://github.com/Trott/music-routes-search/commit/79c866c8196441a22c6dc6daa0925846dd7fc333))
+
+
+### BREAKING CHANGES
+
+* We only support the individuals index.
+
 ## [4.0.3](https://github.com/Trott/music-routes-search/compare/v4.0.2...v4.0.3) (2026-10-04)
 
 
