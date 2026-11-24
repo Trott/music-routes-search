@@ -1,3 +1,9 @@
+## [5.0.3](https://github.com/Trott/music-routes-search/compare/v5.0.2...v5.0.3) (2026-11-24)
+
+### Bug Fixes
+
+* add new data ([2e8b13f](https://github.com/Trott/music-routes-search/commit/2e8b13f9e047ab137be7a4d8de0828c78c01587d))
+
 ## [5.0.2](https://github.com/Trott/music-routes-search/compare/v5.0.1...v5.0.2) (2026-10-24)
 
 
